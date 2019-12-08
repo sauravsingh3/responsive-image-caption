@@ -50,6 +50,23 @@ h2 {
     position: relative;
   }
 
+  .card-body {
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 8rem;
+    right: 1rem;
+    margin-left: 13rem;
+    margin-right: .5rem;
+    border-radius: 0 6px 6px;
+  }
+
+  html {
+    line-height: 1.4;
+    font-size: 110%;
+    font-family: Georgia;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
