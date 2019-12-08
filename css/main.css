@@ -50,57 +50,57 @@ h2 {
     position: relative;
   }
 
+}
+
+@media only screen and (min-width: 60em) {
+
+  figure {
+    margin: 0;
+    width: 100%;
+    display: block;
+    position: relative;
   }
 
-  @media only screen and (min-width: 60em) {
-
-    figure {
-      margin: 0;
-      width: 100%;
-      display: block;
-      position: relative;
-    }
-
-    .card-body {
-      color: white;
-      background-color: rgba(0, 0, 0, .3);
-      position: absolute;
-      top: 15rem;
-      right: 2rem;
-      margin-left: 28rem;
-      border-radius: 0 6px 6px;
-    }
-
-    html {
-      line-height: 1.5;
-      font-family: Georgia;
-      font-size: 120%;
-    }
-
+  .card-body {
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 15rem;
+    right: 2rem;
+    margin-left: 28rem;
+    border-radius: 0 6px 6px;
   }
 
-  @media only screen and (min-width: 90em) {
-
-    figure {
-      margin: 0;
-      width: 100%;
-      display: block;
-      position: relative;
-    }
-
-    .card-body {
-      color: white;
-      background-color: rgba(0, 0, 0, .3);
-      position: absolute;
-      padding: 2rem 1rem;
-      top: 21rem;
-      right: 2rem;
-      margin-left: 40rem;
-    }
-
-    html {
-      font-family: Georgia;
-      font-size: 130%;
-    }
-
+  html {
+    line-height: 1.5;
+    font-family: Georgia;
+    font-size: 120%;
   }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  figure {
+    margin: 0;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .card-body {
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    padding: 2rem 1rem;
+    top: 21rem;
+    right: 2rem;
+    margin-left: 40rem;
+  }
+
+  html {
+    font-family: Georgia;
+    font-size: 130%;
+  }
+
+}
